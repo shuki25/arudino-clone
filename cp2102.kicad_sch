@@ -540,7 +540,7 @@
   (symbol (lib_id "power:GND") (at 82.55 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 490cd98c-bbb9-44ca-a9a3-42e925889168)
-    (property "Reference" "#PWR0301" (at 82.55 118.11 0)
+    (property "Reference" "#PWR0304" (at 82.55 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 116.84 0)
@@ -556,7 +556,7 @@
     (instances
       (project "arudino-clone"
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70/8f8abbf0-5be8-4763-97a2-fa8e428b3e12"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -565,7 +565,7 @@
   (symbol (lib_id "power:GND") (at 49.53 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69cad82e-d57d-48c4-abd2-e77b7acb858d)
-    (property "Reference" "#PWR0304" (at 49.53 63.5 0)
+    (property "Reference" "#PWR0303" (at 49.53 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 62.23 0)
@@ -581,7 +581,7 @@
     (instances
       (project "arudino-clone"
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70/8f8abbf0-5be8-4763-97a2-fa8e428b3e12"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR0303") (unit 1)
         )
       )
     )
@@ -619,7 +619,7 @@
   (symbol (lib_id "power:GND") (at 38.1 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7779b46-9143-4416-8983-6daeb28f0f0d)
-    (property "Reference" "#PWR0303" (at 38.1 63.5 0)
+    (property "Reference" "#PWR0302" (at 38.1 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 62.23 0)
@@ -635,7 +635,7 @@
     (instances
       (project "arudino-clone"
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70/8f8abbf0-5be8-4763-97a2-fa8e428b3e12"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -644,7 +644,7 @@
   (symbol (lib_id "power:GND") (at 110.49 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccc3500c-50f5-4ed9-8d5c-685045c485e1)
-    (property "Reference" "#PWR0302" (at 110.49 53.34 0)
+    (property "Reference" "#PWR0301" (at 110.49 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 52.07 0)
@@ -660,7 +660,7 @@
     (instances
       (project "arudino-clone"
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70/8f8abbf0-5be8-4763-97a2-fa8e428b3e12"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
