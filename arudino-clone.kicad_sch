@@ -2859,31 +2859,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 43.18 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 718e7d1b-f691-4047-97e0-e53d225c52d1)
-    (property "Reference" "#PWR0109" (at 43.18 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 43.18 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 43.18 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4d70d967-fa97-470e-968a-fcfa624feb30))
-    (instances
-      (project "arudino-clone"
-        (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70"
-          (reference "#PWR0109") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 200.66 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 839ea47b-9af4-43e9-8a1b-4228e397d3d0)
@@ -3772,6 +3747,31 @@
       (project "arudino-clone"
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70"
           (reference "J103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 43.18 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f9197aae-4776-4f92-ba70-ef475fe02216)
+    (property "Reference" "#PWR0109" (at 43.18 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 43.18 46.99 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 43.18 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 43.18 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3a3c5b4f-7689-4b7d-8054-1539f36b6352))
+    (instances
+      (project "arudino-clone"
+        (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70"
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
